@@ -2,11 +2,11 @@
 
 
 ## Project Overview
-This project is a Parkinson's disease detection system built using machine learning and Streamlit. The application allows users to test if a person has Parkinson's disease or not, add training data dynamically, and evaluate the model's performance. The model uses the LogisticRegression algorithm from scikit-learn but not using library, and additional features are extracted from the dataset generator by using raw data to improve detection accuracy. 
+This project is a Parkinson's disease detection system built using machine learning and Streamlit. The application allows users to test if a person has Parkinson's disease or not, add training data dynamically, and evaluate the model's performance. The model uses the LogisticRegression algorithm from scikit-learn but not using library, and additional features are extracted from the dataset generator(feature name) by using raw data to improve detection accuracy. 
 
 ## Features
-1. **Email Classification :** Classify emails as "Spam" or "Ham" based on the content.
-2. **Influential Words Highlighting :** Display the most impactful words contributing to the classification.
+1. **Visualization :** Shows plots of different attributes of the dataset  that can be selected by the user .
+2. **Training :** Train the model and display the scores of the performances of the model, the confusion matrix and the ROC curve.
 3. **Test an Email :** Users can input an email and the system will classify it as spam or not spam.
 4. **Add Training Data :** Users can add new emails and label them as spam or not spam, which will be used to retrain the model.
 5. **Evaluate Model :** Users can evaluate the model's performance on a test dataset.
