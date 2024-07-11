@@ -32,8 +32,8 @@ To get a local copy of the project up and running, follow these simple steps:
 1. **Clone the Repository :**
    
    ```bash
-   git clone https://github.com/ShahiduzzamanSajid/SPAM-HAM-Mail-Detection.git
-   cd SPAM-HAM-Mail-Detection
+   git clone https://github.com/Mahmudul-19/Parkinson-s-Disease-Detection.git
+   cd Parkinson-s-Disease_detection
 
  2. **Install the Required Libraries :**
    To install all the necessary libraries and dependencies for the project, you can use the **requirements.txt** file. Run the following command:
