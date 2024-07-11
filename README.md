@@ -16,14 +16,13 @@ This project is a Parkinson's disease detection system built using machine learn
 - **Streamlit :** A framework for building interactive web applications.
 - **Pandas :** A data manipulation and analysis library for Python.
 - **NumPy :** A library for numerical operations in Python.
-- **IO :**The io module provides Python's main facilities for dealing with various types of I/O.
+- **IO :** The io module provides Python's main facilities for dealing with various types of I/O.
 - **Nolds :** A small numpy-based library that pro- vides an implementation and a learning resource for non- linear measures for dynamical systems based on one- dimensional time series.
 - **OS :** The OS module in Python is an indispensable tool for handling file-related tasks for programmers.
 - **Librosa :** Librosa is a library that is used for analyzing the behavior of audio. It helps in loading audio files, extracting the characteristics of the music, and visualizing audio data.
 - **Matplotlib :** Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.
 - **Seaborn :** Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
-  - **Features Used :**
-  - **Pydub :** Provides a gold mine of tools for manipulating audio files.  
+- **Pydub :** Provides a gold mine of tools for manipulating audio files.  
 - **Model Training :** Logistic Regression is employed to build and train the Parkinson's disease detection model.
 - **Pickle :** A module for serializing and deserializing Python objects. It is used for saving and loading the trained model and vectorizer.
 
@@ -48,18 +47,24 @@ To get a local copy of the project up and running, follow these simple steps:
     ```bash
     pip install pandas
     pip install numpy
-    pip install scikit-learn
-    pip install imbalanced-learn
+    pip install seaborn
+    pip install io
+    pip install os
+    pip install pydub
+    pip install librosa
+    pip install nolds
+    pip install matplotlib
+    pip install pickel
     pip install streamlit
 
  3. **Run the Streamlit App :**
   
      ```bash
-     streamlit run Mail_detection_latest.py
+     streamlit run homepage.py
      
 
 ## Contributing
-Contributions to improve Real-Time Spam ham Detection are welcome. To contribute, follow these steps :
+Contributions to improve Real-Time Parkinson's Disease Detection are welcome. To contribute, follow these steps :
 
 1. Fork the repository on GitHub.
 2. Create a new branch with a descriptive name.
